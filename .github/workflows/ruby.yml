@@ -1,0 +1,15 @@
+name: Permissions testing
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Permissions testing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
