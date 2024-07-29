@@ -10,5 +10,5 @@ jobs:
     name: Permissions testing
     runs-on: ubuntu-latest
     steps:
-    - uses: GitHubSecurityLab/actions-permissions/monitor@v1
     - uses: actions/checkout@v2
+permissions: {}
